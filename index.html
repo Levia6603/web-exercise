@@ -1,241 +1,375 @@
-<!doctype html>
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-	
-	<!-- Boostrap CSS -->
-	<link href="bootstrap-5.2.0-beta1-dist/css/bootstrap.min.css" rel="stylesheet">
-	<link href="fontawesome611/css/all.css" rel="stylesheet" type="text/css">
-	<link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick.css" />
-    <link rel="stylesheet" type="text/css" href="slick-1.8.1/slick/slick-theme.css" />
-    <link rel="stylesheet" type="text/css" href="effectmenu/css/component.css" />
-	<link rel="stylesheet" type="text/css" href="effectimg/css/normalize.css">
-	<link rel="stylesheet" type="text/css" href="effectimg/css/normalize.css">
-	<link rel="stylesheet" type="text/css" href="effectimg/css/set2.css">
-	
-	<style type="text/css">
-		
-		.w100{
-			width: 100%;
-			overflow: hidden;
-		}
-		.bgdb{
-			background-color: #F8B600;
-		}
-		.navbar-brand{
-			padding: 0px 20px !important;
-			margin-top: 0px !important;
-			margin-bottom: 0px !important;
-		}
-    	.nav-link {
-        	color: rgba(255,255,255,1) !important;
-        	padding:5px 5px !important;
-    	}
-		.mtpx{
-			margin-top: 60px;
-		}
-		.bgpc{
-			background-color: #EDEAE8;
-		}
-		.round-symbol i{
-			font-size: 4.5rem;
-            margin-right: 1rem;
-            color: #ffffff;
-            border-radius: 100px;
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link href="fontawesome611/css/all.css" rel="stylesheet" type="text/css">
 
-            width: 140px;
-            height: 140px;
-            text-align: center;
-            padding-top: 35px;
-		}
-		.conhd{
-			text-align: center;
-		}
-		.conhd p{
-			font-size: 0.8rem;
-			color: #989691;
-		}
-		.color-1{
-			background-color: #F8B600;
-		}
-		.gr{
-			color: #4C4A49;
-		}
-		.btn-danger{
-			border-radius: 40px;
-			padding: 5px 30px;
-			color: #FFFFFF;
-		}
-		.txwh{
-			color: #FFFFFF;
-		}
-		.txsm{
-			font-size: 0.8rem;
-			color: #B5B2AD;
-		}
-		.card-img{
-			overflow: hidden;
-		}
-		.ofld{
-			overflow: hidden;
-		}
-		.bgwh{
-			background-color: rgba(255,255,255,0.5)
-		}
-		.grid figure{
-			max-width: 200%;
-			max-height: 200%;
-			width: 144%;
-		}
-		#mainmenu{
-			width: 100%;
-		}
-		
-	</style>
-    <title>NENE CHICKEN</title>
-
-  </head>
-  <body>
-	  <div class="w100 bgdb">
-		  <div class="container">
-			    <nav class="navbar navbar-expand-lg navbar-dark" aria-label="Eighth navbar example">
-    				<div class="container">
-      					<a class="navbar-brand disabled"><img src="IMG/logo.png" width="120 px"></a>
-						<div class="collapse navbar-collapse cl-effect-17" id="navbarsExample07">
-        					<ul id="mainmenu" class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-end">
-          						<li class="nav-item">
-            						<a class="nav-link active" aria-current="page" href="index.html">HOME</a>
-          						</li>
-          						<li class="nav-item">
-            						<a class="nav-link" href="menu.html">MENU</a>
-          						</li>
-          						<li class="nav-item">
-            						<a class="nav-link" href="Stores.html">STORES</a>
-          						</li>
-								<li class="nav-item">
-            						<a class="nav-link" href="#"><i class="fa-solid fa-cart-shopping"></i></a>
-          						</li>
-        					</ul>
-      					</div>
-    				</div>
-  				</nav>
-		  </div>
-		  <div class="row">
-			  <div class="col">
-					<div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
-    					<div class="carousel-indicators">
-      						<button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="" aria-label="Slide 1"></button>
-      						<button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class="active" aria-current="true"></button>
-      						<button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class=""></button>
-    					</div>
-    					<div class="carousel-inner">
-     						 <div class="carousel-item">
-        							<a><img src="IMG/pic02.jpg" width="100%"></a>
-      						</div>
-      						<div class="carousel-item active">
-        							<a><img src="IMG/pic01.jpg" width="100%"></a>
-      						</div>
-      						<div class="carousel-item">
-        							<a><img src="IMG/pic03.jpg" width="100%"></a>
-        					</div>
-      					</div>
-    				</div>
-    				<button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-      					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      					<span class="visually-hidden">Previous</span>
-    				</button>
-    				<button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-      					<span class="carousel-control-next-icon" aria-hidden="true"></span>
-      					<span class="visually-hidden">Next</span>
-    				</button>
-  				</div>
-		  </div>
-	  </div>
-	  <div class="w100">
-		  <div class="container pt-5">
-			  <div class="row">
-				  <div class="col-md-4 conhd">
-					  <div class="round-symbol mb-3"><i class="color-1 fa-solid fa-store"></i></div>
-				  
-					  <h4 class="fw-normal gr"><b>我們的堅持就是美味的秘密</b></h4>
-					  <p>我們使用100%新鮮的冷藏雞肉<br>堅持現點現炸，沾上獨特炸粉<br>採用高品質的棕櫚油，拌上韓國直送來台的醬料<br>享受原汁原味韓國的美味炸雞就在NENE CHICKEN！</p>
-				  </div>
-				  <div class="col-md-4 conhd">
-					  <div class="round-symbol mb-3"><i class="color-1 fa-solid fa-drumstick-bite"></i></div>
-				  
-					  <h2 class="fw-normal gr"><b>네네,NeNe=Yes Yes</b></h2>
-					  <p>韓文裡NeNe的意思？就是YES YES！<br>問你想不想吃炸雞，就回答“NeNe！”吧。</p>
-				  </div>
-				  <div class="col-md-4 conhd">
-					  <div class="round-symbol mb-3"><i class="color-1 fa-solid fa-utensils"></i></div>
-				  
-					  <h4 class="fw-normal gr"><b>우리는 상품이 아닌 식품을 판매합니다</b></h4>
-					  <p>NENE CHICKEN所有的調味料及醃料<br>皆由韓國進口、與韓國同步<br>絕對原汁原味，口味豐富、選擇多元<br>不用擔心選不到你喜歡的，只擔心你選不出來</p>
-				  </div>
-			  </div>
-		  </div>
-	  </div>
-	  <div class="w100 bg-light mt-5">
-		  <div class="row grid" style="margin-left: 0px !important; margin-right: 0px !important; padding-top: 0px !important; padding-bottom: 0px !important;">
-			  <figure class="effect-ming" style="margin: 0px !important; padding-left: 0px !important; padding-right: 0px !important;">
-				  <img src="IMG/background02.png">
-				  <figcaption>
-					  <h2><b>Natural</b>&amp;<b>Fresh</b></h2>
-					  <p>我們使用國內CAS優良肉品，新鮮冷藏的國產雞肉，每日新鮮直送。<br>每份餐點堅持現點現做，美味值得耐心等候。</p>
-				  </figcaption>			
-			  </figure>
-		  </div>
-		  <div class="row grid" style="margin-left: 0px !important; margin-right: 0px !important; padding-bottom: 0px !important;">
-			  <figure class="effect-ming" style="margin: 0px !important; padding-left: 0px !important; padding-right: 0px !important;">
-				  <img src="IMG/background01.png">
-				  <figcaption>
-					  <h2><b>Clean</b>&amp;<b>Healthy</b></h2>
-					  <p>所有製程符合GHP食品良好衛生規範，所有工作人員皆堅守消毒及清潔守則。<br>使用高品質棕櫚油、符合韓國嚴格的濾油標準，為您的健康把關。</p>
-				  </figcaption>			
-			  </figure>
-		  </div>
-	  </div>
-	  <div class="w100 bg-dark">
-		  <div class="container">
-			  <div class="row featurette py-5" id="about">
-				  <div class="col-md-7 order-md-2 px-4 py-4">
-					  <h4 class="featurette-heading fw-normal lh-1 txwh"><b>Happy Choice! Happy Together !</b></h4>
-					  <h4 class="txwh"><b>讓我們一起享受歡樂時光吧</b></h4>
-					  <p class="lead txsm"><br><br>NENE CHICKEN是韓國第一大連鎖炸雞品牌，創立於 1999 年，擁有 20 年以上的歷史<br>目前在韓國已經有 1800間門市，1 天能賣出 6 萬份炸雞，海外據點遍及澳洲、新加坡、馬來西亞、香港、日本、杜拜、加拿大、泰國等國家，於 2018 年正式進軍台灣，目前全台門市已有 30 間以上、並正繼續擴大服務範圍。<br><br>我們的宗旨就是，要讓消費者快樂的吃炸雞、讓吃炸雞成為一件快樂的事。</p>
-					  <div class="row mt-5">
-						  <div class="col-md-3">
-							  <a class="btn btn-danger" href="menu.html">美味菜單</a>
-						  </div>
-						  <div class="col-md-3">
-							  <a class="btn btn-danger" href="Stores.html">門市據點</a>
-						  </div>
-					  </div>
-				  </div>
-				  <div class="col-md-5 order-md-1 ofld">
-					  <img src="IMG/cover01.jpg" width="100%">
-				  </div>
-			  </div>
-		  </div>
-	  </div>
-	  <div class="container">
-		  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-			  <div class="col-md-4 d-flex align-items-center">
-				  <span class="mb-3 mb-md-0 text-muted">© 2020 Copyright 真美味國際餐飲有限公司</span>
-			  </div>
-			  <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-				  <li class="ms-3"><a class="text-muted" href="#"><i class="fa-brands fa-facebook"></i></a></li>
-				  <li class="ms-3"><a class="text-muted" href="#"><i class="fa-brands fa-instagram"></i></a></li>
-				  <li class="ms-3"><a class="text-muted" href="#"><i class="fa-brands fa-line"></i></a></li>
-			  </ul>
-		  </footer>
-	  </div>
-	  
-	
     
-	<script src="bootstrap-5.2.0-beta1-dist/js/bootstrap.bundle.js"></script>
-  </body>
-	
+    <style>
+        /* body set */
+        body{
+            background-color: #000000;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif,"Times New Roman";
+        }
+        /* headercss */
+        .w100{
+            width: 100%;
+            margin: 0;
+        }
+        .d-flex{
+            display: flex;
+        }
+        .bg-d{
+            background-color: #000000;
+        }
+        .icon{
+            font-size: 40px;
+        }
+        .bg-d a{
+            color: #ffffff;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        .bg-d p{
+            margin:0;
+        }
+        .paw{
+            font-size: 28px;
+            font-weight: 800;
+            padding-left: 5px;
+        }
+        .party{
+            font-size: 20px;
+            font-weight: 900;
+            padding-top: 4px;
+        }
+        .nav-link:focus, .nav-link:hover {
+            color: #FFC735;
+        }
+        .nav{
+            font-family: "Georgia";
+            font-weight: 900;
+        }
+        .dropdown-menu{
+            --bs-dropdown-bg: #000000;
+        }
+        /* headercss */
+        .bg-y{
+            background-color: #FFC735;
+            overflow: hidden;
+        }
+        .bg-light{
+            background-color: #f0ede7;
+        }
+        .h800{
+            height: 800px;
+        }
+        .btn{
+            --bs-btn-padding-x: 2rem;
+            --bs-btn-padding-y: 0.5rem;
+            font-weight: 900;
+            border-radius: 5rem;
+        }
+        .banner{
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            position: absolute;
+        }
+        .banner-content{
+            position: absolute;
+            top: 55%;
+            z-index: 999;
+        }
+        .banner img{
+            max-width: 100%;
+            display: block;
+            overflow: hidden;
+            margin: 0;
+        }
+        .content p{
+            color: #666666;
+        }
+        .align-items-center{
+            text-align: center;
+        }
+        .map-text{
+            color: #f0ede7;
+        }
+        .js-scroll {
+            opacity: 0;
+            transition: opacity 500ms;
+        }
+        .js-scroll.scrolled {
+            opacity: 1;
+        }
+        .scrolled.fade-in {
+            animation: fade-in 1s ease-in-out both;
+        }
+        .scrolled.fade-in-bottom {
+            animation: fade-in-bottom 1s ease-in-out both;
+        }
+        .scrolled.slide-left {
+            animation: slide-in-left 1s ease-in-out both;
+        }
+        .scrolled.slide-right {
+            animation: slide-in-right 1s ease-in-out both;
+        }
+        @keyframes slide-in-left {
+            0% {
+                -webkit-transform: translateX(-100px);
+                transform: translateX(-100px);
+                opacity: 0;
+            }
+            100% {
+                -webkit-transform: translateX(0);
+                transform: translateX(0);
+                opacity: 1;
+            }
+        }
+
+        @keyframes slide-in-right {
+            0% {
+                -webkit-transform: translateX(100px);
+                transform: translateX(100px);
+                opacity: 0;
+            }
+            100% {
+                -webkit-transform: translateX(0);
+                transform: translateX(0);
+                opacity: 1;
+            }
+        }
+        @keyframes fade-in {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+        @keyframes fade-in-bottom {
+            0% {
+                -webkit-transform: translateY(50px);
+                transform: translateY(50px);
+                opacity: 0;
+            }
+            100% {
+                -webkit-transform: translateY(0);
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+        /* ----------------------------------------------
+        * Generated by Animista on 2021-2-11 23:32:31
+        * Licensed under FreeBSD License.
+        * See http://animista.net/license for more info. 
+        * w: http://animista.net, t: @cssanimista
+        * ---------------------------------------------- */
+        /* footer css */
+        .icons i{
+            color: #f0ede7;
+        }
+        .footer-text{
+            color: #666666;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+    </style>
+    <title>爪PARTY</title>
+</head>
+<body>
+
+    <!--header nav-->
+    <div class="w100 bg-d">
+        <div class="container">
+            <header class="d-flex flex-wrap justify-content-center py-3">
+                <a href="index.html" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+                    <img src="img/logo-s.svg" height="40px">
+                </a>
+          
+                <ul class="nav nav-pills">
+                    <li class="nav-item"><a href="#" class="nav-link">HOME</a></li>
+                    <li class="nav-item"><a href="menu.html" class="nav-link" >MENU</a></li>
+                    <li class="nav-item dropdown">
+                        <a href="/" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">BOOKING</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="＃">線上訂位</a></li>
+                            <li><a class="dropdown-item" href="＃">查詢訂位</a></li>
+                        </ul>
+                    </li>
+                </ul>
+              </header>
+        </div>
+    </div>
+    <!--container-->
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class="" aria-current="true"></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class=""></button>
+            <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3" aria-label="Slide 4" class=""></button>
+        </div>
+        <!--輪播1920*650px-->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <!--輪播畫面1--> 
+                <img src="img/banner.png" width="100%"> 
+                <!-- <div class="container">
+                <div class="carousel-caption text-start">
+                    <p><a class="btn btn-lg btn-dark" href="menu.html">快來看看我們的菜單吧!</a></p>
+                </div>
+                </div> -->
+            </div>
+            <div class="carousel-item">
+                <!--輪播畫面2-->
+                <img src="img/banner2.png" width="100%">
+            </div>
+            <div class="carousel-item">
+                <!--輪播畫面3-->
+                <img src="img/banner3.png" width="100%">
+            </div>
+            <div class="carousel-item">
+                <!--輪播畫面4-->
+                <img src="img/banner4.png" width="100%">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <section class="w100 bg-light scroll-container">
+        <div class="px-4 py-5 text-center">
+            <div class="scroll-element js-scroll fade-in-bottom">
+                <img class="d-block mx-auto mb-4" src="img/logo-l.svg" height="150px">
+            </div>
+            <div class="col-lg-6 mx-auto scroll-element js-scroll fade-in-bottom">
+                <h2>一個氣氛輕快的寵物咖啡廳</h2>
+                <p class="lead mb-4">在繁忙的生活中找回歡笑，和狗店長一起來開個爪子派對吧!</p>
+            </div>
+        </div>
+    </section>
+    <section class="w100 bg-light scroll-container d-flex">
+        <div class="container col-xxl-8 px-4">
+            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+                <div class="col-10 col-sm-8 col-lg-6 js-scroll slide-in-left">
+                    <img src="img/cafe-decoration.png" class="d-block mx-lg-auto img-fluid" width="700" height="500" loading="lazy">
+                </div>
+                <div class="col-lg-6 js-scroll fade-in-bottom">
+                    <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">提供犬主們一個與愛犬共度美好時光的場所。</h1>
+                    <p class="content">爪PARTY的創立是基於對犬友群體和美食文化的熱愛。我們希望打造一個獨特的場所，讓犬主和他們的毛孩能夠一同享受美食和社交互動，同時提供優質的用餐體驗和寵物友善的環境。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="w100 bg-light scroll-container d-flex content">
+        <div class="container col-xxl-8 px-4">
+            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+                <div class="col-lg-6 js-scroll fade-in-bottom">
+                    <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">提供美味佳餚，滿足顧客對高品質餐飲的需求。</h1>
+                    <p>我們以承諾為您提供高品質的美味佳餚。精選新鮮食材，由經驗豐富的廚師團隊巧手烹調，將味覺的極致表現桌上。每一道菜品都是對品質的堅持和對您的尊重。無論您是享受下午茶還是精緻簡餐，我們的美味佳餚將帶給您難以忘懷的味蕾享受！</p>
+                </div>
+                <div class="col-10 col-sm-8 col-lg-6 js-scroll slide-in-left">
+                    <img src="img/food.png" class="d-block mx-lg-auto img-fluid" width="700" height="500" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="w100 bg-light scroll-container d-flex">
+        <div class="container col-xxl-8 px-4">
+            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+                <div class="col-10 col-sm-8 col-lg-6 js-scroll slide-in-left">
+                    <img src="img/dog.png" class="d-block mx-lg-auto img-fluid" width="700" height="500" loading="lazy">
+                </div>
+                <div class="col-lg-6 js-scroll fade-in-bottom">
+                    <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">創造一個社區和社交的平台，讓犬友們互相交流和分享。</h1>
+                    <p class="content">我們旨在提供一個飼主交流場所，讓喜愛寵物的人們彼此交換與分享。在過程中，您可以找到志同道合的犬友，互相分享心得。透過互動、討論和交流，我們共同建立一個充滿溫暖和正向的社群。無論您是認識新朋友、尋求建議，或是想與他人分享您的經驗，這裡是適合您的交流環境！</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <div class="w100"> 
+        <div class="container">
+            <div class="row flex-lg-row-reverse align-items-center g-5 pt-5">
+                <div class="col-lg-6">
+                    <h1 class="fw-bold lh-1 mb-3 map-text">趕快來我們的餐廳看看吧！</h1><hr>
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-center">
+                        <a href="booking.php" class="btn btn-warning btn-lg px-4 me-md-2">立即訂位</a>
+                        <a href="search.php" class="btn btn-light btn-lg px-4">查詢訂位</a>
+                    </div>
+                </div>
+                <div class="col-10 col-sm-8 col-lg-6">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3682.4988276038052!2d120.28583271025661!3d22.635182930589103!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346e04667c760aff%3A0x81b1b2f9e310c2cb!2zODA36auY6ZuE5biC5LiJ5rCR5Y2A5bu65ZyL5LiJ6LevNTE16Jmf!5e0!3m2!1szh-TW!2stw!4v1686107738606!5m2!1szh-TW!2stw" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+                <div class="col-md-4 d-flex align-items-center">
+                    <a href="#" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+                        <img src="img/logo-s-grey.svg" height="24px">
+                    </a>
+                    <span class="mb-3 mb-md-0 footer-text">© 2023 PAWTY. Inc</span>
+                </div>
+            
+                <ul class="nav col-md-6 justify-content-end list-unstyled d-flex icons">
+                    <li class="footer-text ms-3">TEL:0952-282-246</li>
+                    <li class="ms-3 "><a class="text-body-secondary" href="https://www.facebook.com/people/%E7%88%AApawty%E5%AF%B5%E7%89%A9%E5%92%96%E5%95%A1%E5%BB%B3/100093170222832/?is_tour_dismissed=true" target="_blank"><img src="img/facebook.svg" height="15px"></a></li>
+                </ul>
+            </footer>
+        </div>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script>
+        const scrollElements = document.querySelectorAll(".js-scroll");
+
+        const elementInView = (el, dividend = 1) => {
+            const elementTop = el.getBoundingClientRect().top;
+
+            return (
+                elementTop <=
+                (window.innerHeight || document.documentElement.clientHeight) / dividend
+            );
+        };
+
+        const elementOutofView = (el) => {
+            const elementTop = el.getBoundingClientRect().top;
+
+            return (
+                elementTop > (window.innerHeight || document.documentElement.clientHeight)
+            );
+        };
+
+        const displayScrollElement = (element) => {
+            element.classList.add("scrolled");
+        };
+
+        const hideScrollElement = (element) => {
+            element.classList.remove("scrolled");
+        };
+
+        const handleScrollAnimation = () => {
+            scrollElements.forEach((el) => {
+                if (elementInView(el, 1.25)) {
+                displayScrollElement(el);
+                } else if (elementOutofView(el)) {
+                hideScrollElement(el)
+                }
+            })
+        }
+
+        window.addEventListener("scroll", () => { 
+            handleScrollAnimation();
+        });
+    </script>
+</body>
 </html>
